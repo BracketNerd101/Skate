@@ -5,7 +5,10 @@ body {
   font-family: 'Anton', sans-serif;
   font-family: 'Wendy One', sans-serif;
     font-family: 'Indie Flower', cursive;
-    font-family: 'Dosis', sans-serif;*/
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    */
+    
 
 }
 
@@ -61,12 +64,20 @@ body {
 
 
 
-/*scroll styles      */
+/* scroll styles      */
 
 .scroll-height-style {
     
     width: 100%;
-    height: 45rem;
+    height: 40rem;
+    margin-bottom: auto;
+}
+
+.slider-text{
+    
+font-size: 4rem;    
+font-family: 'Poppins', sans-serif !important;
+
 }
 
 .attraction-style {
@@ -79,8 +90,38 @@ body {
 
 .attraction-header-style {
     
-    margin-top: 0rem;
+    margin-top: auto;
     
+}
+
+.learn-skate {
+    height: inherit;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+      
+    
+}
+
+.skate-section {
+    
+    height: inherit;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-top: 5rem;
+    
+    
+}
+
+.header-learn-skate {
+    
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.roller-girl {
+    
+    height: 16rem;
 }
 
 /* Global footer */
