@@ -69,14 +69,17 @@ body {
 .scroll-height-style {
     
     width: 100%;
-    height: 40rem;
+    height: 45rem;
     margin-bottom: auto;
+    overflow: hidden;
+/*    height: inherit;*/
 }
 
-.slider-text{
+.slider-text {
     
 font-size: 4rem;    
 font-family: 'Poppins', sans-serif !important;
+    margin-bottom: 15rem;
 
 }
 
@@ -91,6 +94,8 @@ font-family: 'Poppins', sans-serif !important;
 .attraction-header-style {
     
     margin-top: auto;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 200;
     
 }
 
@@ -122,6 +127,8 @@ font-family: 'Poppins', sans-serif !important;
 .roller-girl {
     
     height: 16rem;
+    align-content: center;
+    text-align: center;
 }
 
 /* Global footer */
@@ -129,10 +136,15 @@ font-family: 'Poppins', sans-serif !important;
 .footer-links-space {
   /*margin-top: 4rem;
   margin-bottom: 4rem;*/
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
   
 
+}
+
+.footer-styles {
+/*    padding-top: 4rem;*/
+    height: inherit;
 }
 
 .my-4 {
