@@ -12,6 +12,18 @@ body {
 
 }
 
+
+.logo-name-style {
+    
+    
+/*    font-family: 'Dosis', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+/*    font-size: 3rem;*/
+   
+    
+    
+}
+
 .top-nav-font-style {
 
       font-family: 'Dosis', sans-serif;
@@ -51,14 +63,17 @@ body {
 
 .logo-size {
   height: 100px;
+  
+   
 }
 
 
 .logo-style {
   top: 0px;
   display: flex;
+  padding-top: 10px;   
   justify-content:  center;
-  position:fixed;
+  position: fixed;
   margin-left: auto;
   margin-right: auto;
   z-index: 9000345435;
